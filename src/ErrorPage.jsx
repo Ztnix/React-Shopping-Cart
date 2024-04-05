@@ -4,7 +4,7 @@ const ErrorPage = () => {
   return (
     <div>
       <h1>Fuck You</h1>
-      <Link to="/">Back</Link>
+      <Link to="/React-Shopping-Cart">Back</Link>
     </div>
   );
 };

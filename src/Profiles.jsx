@@ -20,7 +20,7 @@ const ProfilesPage = () => {
         </NavLink>
       ))}
       <Outlet></Outlet>
-      <Link to="/">Go back</Link>
+      <Link to="/React-Shopping-Cart">Go back</Link>
     </div>
   );
 };

@@ -8,20 +8,20 @@ import Cart from "./Cart";
 const Router = () => {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/React-Shopping-Cart",
       element: <App />,
       errorElement: <ErrorPage />,
       children: [
         {
-          path: "/home",
+          path: "/React-Shopping-Cart/home",
           element: <Home />,
         },
         {
-          path: "shop",
+          path: "/React-Shopping-Cart/shop",
           element: <Shop />,
         },
         {
-          path: "cart",
+          path: "/React-Shopping-Cart/cart",
           element: <Cart />,
         },
       ],
