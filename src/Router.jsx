@@ -13,6 +13,10 @@ const Router = () => {
       errorElement: <ErrorPage />,
       children: [
         {
+          path: "",
+          element: <Home />,
+        },
+        {
           path: "/React-Shopping-Cart/home",
           element: <Home />,
         },
