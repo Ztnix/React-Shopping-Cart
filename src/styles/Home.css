@@ -1,0 +1,30 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://cool-yeot-b7f3f8.netlify.app/assets/main-bg-CgmDsHyj.webp);
+  flex: 1;
+  color: white;
+  background-size: cover;
+  background-position: initial;
+}
+
+.textArea {
+  background-color: rgba(0, 0, 0, 0.384);
+  border-radius: 20px;
+  padding: 1rem;
+  outline: 0.1rem;
+  outline-color: white;
+  outline-style: solid;
+  text-align: center;
+}
+
+.textArea h1 {
+  font-size: 3rem;
+}
+
+.textArea p {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
